@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_whislist"
+            android:icon="@drawable/ic_star_rate_black_18dp"
+            android:title="Whislist" />
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="Pembelian" >
+        </item>
+        <item
+            android:id="@+id/nav_penjualan"
+            android:icon="@drawable/ic_store_black_24dp"
+            android:title="Penjualan" />
+        <item
+            android:id="@+id/nav_stock"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            android:title="Stock" />
+    </group>
+
+    <item android:title="Pengaturan">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Pengaturan" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_help_outline_black_24dp"
+                android:title="Bantuan" />
+        </menu>
+    </item>
+</menu>
